@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/runFragment"
+        android:title="Mi Carrera"
+        android:icon="@drawable/ic_run"/>
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:title="Estadisticas"
+        android:icon="@drawable/ic_graph"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Configuracíon"
+        android:icon="@drawable/ic_settings"/>
+
+
+</menu>
