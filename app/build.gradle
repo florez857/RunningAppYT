@@ -107,4 +107,9 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     implementation 'android.arch.lifecycle:extensions:1.1.1'
+
+
+    //ssp sdp
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
 }

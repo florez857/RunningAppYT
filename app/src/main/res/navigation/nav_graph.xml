@@ -22,7 +22,13 @@
         <action
             android:id="@+id/action_setupFragment_to_runFragment"
             app:destination="@id/runFragment"
-            app:enterAnim="@anim/slide_in_right" />
+            app:popUpTo="@id/setupFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_setupFragment_to_runFragment2"
+            app:destination="@id/runFragment"
+            app:popUpTo="@id/setupFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/trackingFragment"

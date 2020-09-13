@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="@dimen/_16sdp">
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvTotalDistanceInfo"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0km"
-        android:textSize="40sp"
+        android:textSize="@dimen/_25ssp"
         app:layout_constraintBottom_toTopOf="@+id/tvTotalDistanceInfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="00:00:00"
-        android:textSize="40sp"
+        android:textSize="@dimen/_25ssp"
         app:layout_constraintBottom_toTopOf="@+id/tvTotalTimeInfo"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent" />
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0kcal"
-        android:textSize="40sp"
+        android:textSize="@dimen/_25ssp"
         app:layout_constraintBottom_toTopOf="@+id/tvTotalCaloriesInfo"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent" />
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0km/h"
-        android:textSize="40sp"
+        android:textSize="@dimen/_20ssp"
         app:layout_constraintBottom_toTopOf="@+id/tvAverageSpeedInfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
