@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigationView.setupWithNavController(nav_host_fragment.findNavController())
 
+        bottomNavigationView.setOnNavigationItemReselectedListener {
+            /*no-op*/
+        }
+
 
         supportFragmentManager.registerFragmentLifecycleCallbacks(object : FragmentManager.FragmentLifecycleCallbacks() {
             override fun onFragmentViewCreated(fm: FragmentManager, f: Fragment, v: View, savedInstanceState: Bundle?) {
